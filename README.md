@@ -1,0 +1,2 @@
+# LeetCode
+Journy Towards LeetCode
