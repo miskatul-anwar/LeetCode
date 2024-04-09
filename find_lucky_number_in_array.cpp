@@ -15,8 +15,8 @@ iterate:
     goto iterate;
   }
   if (lucky.size()) {
-    auto j = max_element(lucky.begin(), lucky.end());
-    return *j;
+    int j = *max_element(lucky.begin(), lucky.end());
+    return j;
   }
   return -1;
 }
