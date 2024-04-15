@@ -9,3 +9,12 @@ void moveZeroes(vector<int> &nums) {
     }
   }
 }
+int main(void) {
+  vector<int> nums = {0, 1, 1, 0, 1, 0};
+  moveZeroes(nums);
+  for (auto i : nums) {
+    cout << i << " ";
+  };
+  cout << endl;
+  return 0;
+}
